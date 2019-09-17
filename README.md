@@ -1,5 +1,6 @@
 # practica6
-Paquetes\n
-Guadalupe Hernandez Pablo Nicolas\n
-Hernandez Barrera Yunue\n
-Ponce Patiño Jose Angel\n
+## Paquetes
+### Guadalupe Hernandez Pablo Nicolas
+### Hernandez Barrera Yunue
+### Ponce Patiño Jose Angel
+### Yañez Espindola Jose Marcos
