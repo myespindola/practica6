@@ -1,10 +1,13 @@
-public class Punto{
+public class Punto extends Figura{
  private int x;
  private int y;
 
 
  public Punto(){}
 
+ public String obtenerNombre();
+  return "Punto";
+} 
  public Punto(int valorX, int valorY){
   x = valorX;
   y = valorY;
