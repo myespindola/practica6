@@ -28,6 +28,9 @@ public class Circulo extends Punto{
 		return Math.PI * obtenerRadio() * obtenerRadio();
 	}
 
+	public String obtenerNombre(){
+		return "Circulo";
+	  } 
 	public String toString(){
 		return "Centro = " + super.toString() + ", Radio = "  + obtenerRadio();
 	}

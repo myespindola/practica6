@@ -20,19 +20,20 @@ public class Cilindro extends Circulo{
 	// sobrescribir método abstracto obtenerArea para devolver el área de Cilindro 
 
 	public double obtenerArea(){
-		return ((Math.PI)*Math.pow(super.getRadio(),2)*2)+(altura*2*Math.PI*super.getRadio());
+		return ((Math.PI)*Math.pow(super.obtenerRadio(),2)*2)+(altura*2*Math.PI*super.obtenerRadio());
 	}
 	// sobrescribir método abstracto obtenerVolumne para devolver vaolr del cilindro
 
 	public double obtenerVolumen(){
-		return (Math.PI)*(Math.pow(super.getRadio(),2))*(altura);
+		return (Math.PI)*(Math.pow(super.obtenerRadio(),2))*(altura);
 	}
 	// sobrescribir método abstracto obtenerNombre para devolver "Cilindro"
-	public String obtenerNombre();
+	public String obtenerNombre(){
 		return "Cilindro";
 	}
+	
 	//sobrescribir toString para devolver representación String del Cilindro
 	public String toString(){
-		return super.toString() + "altura: "+obtenerAltura;
+		return super.toString() + "altura: "+obtenerAltura();
 	}
 }

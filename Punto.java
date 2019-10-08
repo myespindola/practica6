@@ -5,7 +5,7 @@ public class Punto extends Figura{
 
  public Punto(){}
 
- public String obtenerNombre();
+ public String obtenerNombre(){
   return "Punto";
 } 
  public Punto(int valorX, int valorY){
