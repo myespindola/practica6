@@ -8,7 +8,7 @@ public class RelacionJerarquica{
 		System.out.println("Llamado a to String de Circulo con Referencia a ka subclase apuntando ak objeto de la subclase.\n ");
 		System.out.println(circulo.toString());
 
-		circulo = punto;
+		circulo = (Circulo) punto;
 		System.out.println("Llamado a toString de Circulo con Referencia a la supoerclase apuntado al objeto de la subclase.\n");
 		System.out.println(refPunto.toString());
 	}
